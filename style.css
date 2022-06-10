@@ -1,0 +1,46 @@
+body {
+  margin : 0px;
+  padding: 0px;
+  color: azure;
+  background: url('background.jpg');
+}
+.left {
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 60px;
+}
+.mid {
+
+  border: 2px solid yellow;
+  display: block;
+  width: 600px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+     border: 2px solid green;
+     display: inline-block;
+}
+.navbar {
+  display: inline-block;
+
+}
+.navbar li{
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a{
+  display: inline-block;
+  color: azure;
+  text-decoration: underline;
+}
+.navbar li a:hover{
+  color: grey;
+}
